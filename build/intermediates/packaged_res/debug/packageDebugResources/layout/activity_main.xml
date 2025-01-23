@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#D3D3D3">
+
+    <!-- Note -->
+    <TextView
+        android:id="@+id/note_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note:\nSwitch On Bluetooth and Location"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Google Sign In Button -->
+    <Button
+        android:id="@+id/google_sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google KIIT Email Sign in"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="50dp" />
+
+    <!-- Fingerprint Icon -->
+    <ImageView
+        android:id="@+id/fingerprint_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_fingerprint"
+        android:contentDescription="Fingerprint Icon" />
+</LinearLayout>
